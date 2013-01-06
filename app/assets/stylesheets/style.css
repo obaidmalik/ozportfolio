@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global Styling */
+*
+{
+margin: 0;
+padding: 0;
+}
+
+body
+{
+font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+background: url(back-repeat.png) #281e1e repeat-x;
+color: #FFFFFF;
+font-size: 14px;
+}
+
+a
+{
+text-decoration: none;
+color: #d77b7e;
+}
+
+a:hover
+{
+text-decoration: none;
+}
+
+h2
+{
+font-size: 20px;
+font-weight: bold;
+}
+
+h3
+{
+font-size: 16px;
+font-weight: bold;
+margin:8px 0 0 4px;
+}
+
+.heading-2
+{
+font-variant: small-caps;
+font-size: 16px;
+border-bottom: #FFFFFF solid 2px;
+padding-bottom: 2px;
+}
+
+.content-list
+{
+margin: 10px 0 0 24px;
+}
+
+#wrapper
+{
+width: 980px;
+padding: 4px;
+margin: 0 auto;
+}
+
+/* Header Styling */
+#header
+{
+width: 980px;
+margin: 0 auto;
+}
+
+#logo
+{
+background: url("logo.jpg") no-repeat top left;
+margin: 10px 0 0 10px;
+width: 230px;
+height: 100px;
+float: left;
+}
+
+/* Navigation Menu Styling */
+#navigation
+{
+float: right;
+width: 700px;
+margin-top: 30px;
+font-size: 16px;
+}
+
+#menu
+{
+padding:0;
+margin:0;
+display:inline;
+float: right;
+margin-right: 30px;
+height: 40px;
+}
+
+#menu li
+{
+padding: 4px 0 2px 20px;
+margin:0 5px 0 0;
+display:inline;
+float:left;
+}
+
+#menu a
+{
+text-decoration: none;
+color: #FFFFFF;
+padding-bottom: 2px;
+}
+
+#menu a:hover
+{
+color: #d77b7e;
+border-bottom: #d77b7e solid 2px !important;
+}
+
+.content
+{
+clear: both;
+position: relative;
+top: 20px;
+padding: 10px;
+overflow: hidden;
+}
+
+#landing-heading
+{
+font-weight: bold;
+text-transform:uppercase;
+font-size: 16px;
+height: 30px;
+margin:10px 0;
+}
+
+/* Work Showcase Container Styling */
+.panel
+{
+position: relative;
+top: 2px;
+overflow: hidden;
+}
+
+.showcase
+{
+margin-top: 10px;
+}
+
+.showcase-img
+{
+margin: 10px;
+margin-top: 20px;
+width: 420px;
+float: left;
+clear: both;
+}
+
+.showcase-img img
+{
+border: #FFFFFF solid 5px;
+}
+
+.showcase-content
+{
+margin-top: 20px;
+padding-right: 20px;
+}
+
+.links
+{
+margin-top: 10px;
+}
+
+.separator
+{
+background: url(separator.jpg) center bottom no-repeat;
+height: 44px;
+margin-top: 20px;
+}
+
+.separator2
+{
+background: url(separator2.png) center bottom no-repeat;
+height: 1px;
+margin-top: 40px;
+}
+
+.to-top-img
+{
+float: right;
+background: url(arrow.png) right no-repeat;
+padding-right: 26px;
+}
+
+.to-top-img:hover
+{
+text-decoration: none;
+margin-bottom: 10px;
+}
+
+/* Contact Form Styling */
+#contact-form
+{
+width: 600px;
+float: left;
+}
+
+#contact-details
+{
+width: 300px;
+float: right;
+margin-top: -20px;
+}
+
+form
+{
+width: 600px;
+}
+
+label{
+float: left;
+width: 120px;
+font-weight: bold;
+color: #ffffff;
+}
+
+input, textarea{
+width: 200px;
+margin-bottom: 8px;
+border: 1px solid #d77b7e;
+background-color: #FFFFFF;
+height: 20px;
+padding-top: 4px;
+font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+font-size: 14px;
+}
+
+textarea{
+width: 250px;
+height: 150px;
+}
+
+.boxes{
+width: 1em;
+}
+
+#submitbutton
+{
+text-align: center;
+background: url(submit-btn.png) no-repeat center;
+border: none;
+color: #523232;
+margin-top: 4px;
+padding-top: 0px;
+margin-left: 300px;
+width: 68px;
+height: 28px;
+cursor: pointer;
+}
+
+
+/* Footer Styling */
+#footer
+{
+margin: 10px 0;
+}
+
+#footer p
+{
+float: right;
+text-align: right;
+}
+
