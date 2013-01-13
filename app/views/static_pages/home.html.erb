@@ -17,11 +17,11 @@ Home
 
 	<div id="navigation">
 		<ul id="menu">
-			<li id="home-nav"> <%= link_to ('home'), {:action => 'home',:controller => 'static_pages'} %> </li>
+			<li id="home-nav"> <%= link_to ('home'), {action: 'home',controller: 'static_pages'} %> </li>
 			<li id="portfolio-nav"><%= link_to ('portfolio') %> </li>
-			<li id="contact-nav"><%= link_to  "blogs", "http://echoingpauses.blogspot.com", {:target => "_blank"} %> </li>
-			<li id="about-nav"><%= link_to ('about'), {:action => 'about'} %> </li>
-			<li id="contact-nav"><%= link_to ('contact'), {:action => 'contact'} %> </li>
+			<li id="contact-nav"><%= link_to  "blogs", "http://echoingpauses.blogspot.com", {target: "_blank"} %> </li>
+			<li id="about-nav"><%= link_to ('about'), {action: 'about'} %> </li>
+			<li id="contact-nav"><%= link_to ('contact'), {action: 'contact'} %> </li>
 		</ul>
 	</div> 
 	<!-- End of Navigation Container -->
